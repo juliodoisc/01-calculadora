@@ -89,7 +89,7 @@ export default function Home() {
   };
 
   return (
-    <main className="w-full h-screen bg-gray-500 flex items-center  justify-center">
+    <main className="w-full h-[calc(100vh_-_48px)] bg-gray-500 flex items-center  justify-center">
       <div className="bg-gray-400 w-2/4 min-h-[350px] rounded-xl">
         <Input value={currentNumber} />
         <div className="flex flex-col p-2 gap-1">
